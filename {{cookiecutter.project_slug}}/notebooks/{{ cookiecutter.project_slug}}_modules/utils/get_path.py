@@ -8,7 +8,7 @@ def make_path(*args):
     DATA_DIR=CURRENT_DIR.parent.joinpath(args)
     return DATA_DIR
 
-def make_path_list(*args):
+def make_item_list(*args):
     #data_dir = make_path(*args)
     #items = [os.path.join(data_dir, item) for item in os.listdir(data_dir)]
     #items_list = list(filter(lambda x: os.path.isfile(x), items))
