@@ -6,9 +6,9 @@ By: {{ cookiecutter.project_author_name }}
 
 ## License
 
-## Note: it is important to create de new python enviaroment from the terminal, please use:
+## Note: it is important to create de new python env from the terminal, please use:
  ```
  conda env create --file dependencies.yml
- conda activate normal
+ conda activate {{ cookiecutter.project_title }}
  ```
  
