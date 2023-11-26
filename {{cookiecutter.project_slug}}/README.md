@@ -5,3 +5,10 @@ By: {{ cookiecutter.project_author_name }}
 {{ cookiecutter.project_description }}
 
 ## License
+
+## Note: it is important to create de new python enviaroment from the terminal, please use:
+ ```
+ conda env create --file dependencies.yml
+ conda activate normal
+ ```
+ 
