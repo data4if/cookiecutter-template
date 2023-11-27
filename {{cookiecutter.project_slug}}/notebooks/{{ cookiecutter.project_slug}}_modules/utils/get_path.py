@@ -9,9 +9,9 @@ def make_dir_function(dir_name):
         return pyprojroot.here().joinpath(dir_name, *args)
     return dir_function
 
-def get_data_path():
+def get_data_path(*args):
     # Te regresa dos pasos atras
-    return pyhere.here().resolve() / "data" / "raw"
+    return pyhere.here().resolve() / args
 
 def get_raw_path():
     return pyhere.here().resolve() / "data"
